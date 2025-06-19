@@ -71,6 +71,7 @@
             psswrd.TabIndex = 14;
             psswrd.Text = "Show Password";
             psswrd.UseVisualStyleBackColor = true;
+            psswrd.CheckedChanged += psswrd_CheckedChanged;
             // 
             // txtPassword
             // 
@@ -78,6 +79,7 @@
             txtPassword.Location = new Point(433, 303);
             txtPassword.Margin = new Padding(4, 3, 4, 3);
             txtPassword.Name = "txtPassword";
+            txtPassword.PasswordChar = '*';
             txtPassword.Size = new Size(364, 29);
             txtPassword.TabIndex = 13;
             // 
@@ -159,6 +161,7 @@
             signin_btn.TabIndex = 2;
             signin_btn.Text = "Sign In";
             signin_btn.UseVisualStyleBackColor = false;
+            signin_btn.Click += signin_btn_Click;
             // 
             // label5
             // 

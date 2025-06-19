@@ -24,5 +24,15 @@ namespace WinFormsApp1
             this.Hide();
 
         }
+
+        private void signin_btn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void psswrd_CheckedChanged(object sender, EventArgs e)
+        {
+            txtPassword.PasswordChar = 
+        }
     }
 }
