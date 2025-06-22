@@ -38,8 +38,8 @@
             label2 = new Label();
             label3 = new Label();
             txtName = new TextBox();
-            txtPassword = new TextBox();
-            psswrd = new CheckBox();
+            txtPassword_login = new TextBox();
+            psswrd_login = new CheckBox();
             login_btn = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -146,26 +146,27 @@
             txtName.Size = new Size(364, 29);
             txtName.TabIndex = 4;
             // 
-            // txtPassword
+            // txtPassword_login
             // 
-            txtPassword.Font = new Font("Tahoma", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtPassword.Location = new Point(413, 281);
-            txtPassword.Margin = new Padding(4, 3, 4, 3);
-            txtPassword.Name = "txtPassword";
-            txtPassword.Size = new Size(364, 29);
-            txtPassword.TabIndex = 5;
+            txtPassword_login.Font = new Font("Tahoma", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtPassword_login.Location = new Point(413, 281);
+            txtPassword_login.Margin = new Padding(4, 3, 4, 3);
+            txtPassword_login.Name = "txtPassword_login";
+            txtPassword_login.Size = new Size(364, 29);
+            txtPassword_login.TabIndex = 5;
             // 
-            // psswrd
+            // psswrd_login
             // 
-            psswrd.AutoSize = true;
-            psswrd.Font = new Font("Tahoma", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            psswrd.Location = new Point(614, 343);
-            psswrd.Margin = new Padding(4, 3, 4, 3);
-            psswrd.Name = "psswrd";
-            psswrd.Size = new Size(148, 25);
-            psswrd.TabIndex = 6;
-            psswrd.Text = "Show Password";
-            psswrd.UseVisualStyleBackColor = true;
+            psswrd_login.AutoSize = true;
+            psswrd_login.Font = new Font("Tahoma", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            psswrd_login.Location = new Point(614, 343);
+            psswrd_login.Margin = new Padding(4, 3, 4, 3);
+            psswrd_login.Name = "psswrd_login";
+            psswrd_login.Size = new Size(148, 25);
+            psswrd_login.TabIndex = 6;
+            psswrd_login.Text = "Show Password";
+            psswrd_login.UseVisualStyleBackColor = true;
+            psswrd_login.CheckedChanged += psswrd_CheckedChanged;
             // 
             // login_btn
             // 
@@ -188,8 +189,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(813, 579);
             Controls.Add(login_btn);
-            Controls.Add(psswrd);
-            Controls.Add(txtPassword);
+            Controls.Add(psswrd_login);
+            Controls.Add(txtPassword_login);
             Controls.Add(txtName);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -214,8 +215,8 @@
         private Label label2;
         private Label label3;
         private TextBox txtName;
-        private TextBox txtPassword;
-        private CheckBox psswrd;
+        private TextBox txtPassword_login;
+        private CheckBox psswrd_login;
         private Button login_btn;
         private Button signup_btn;
         private Label label5;

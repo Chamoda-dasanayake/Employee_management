@@ -36,5 +36,10 @@ namespace WinFormsApp1
             regForm.Show();
             this.Hide();
         }
+
+        private void psswrd_CheckedChanged(object sender, EventArgs e)
+        {
+           
+        }
     }
 }

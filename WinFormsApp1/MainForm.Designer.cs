@@ -30,12 +30,15 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             panel1 = new Panel();
-            label1 = new Label();
             panel2 = new Panel();
+            label1 = new Label();
             panel3 = new Panel();
-            pictureBox1 = new PictureBox();
-            label2 = new Label();
+            button4 = new Button();
+            button3 = new Button();
+            button2 = new Button();
             button1 = new Button();
+            label2 = new Label();
+            pictureBox1 = new PictureBox();
             panel1.SuspendLayout();
             panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -46,22 +49,10 @@
             panel1.BackColor = Color.DarkSlateBlue;
             panel1.Controls.Add(panel2);
             panel1.Controls.Add(label1);
-            panel1.Location = new Point(-9, -17);
+            panel1.Location = new Point(-9, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1403, 86);
+            panel1.Size = new Size(1403, 69);
             panel1.TabIndex = 0;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = SystemColors.Window;
-            label1.Location = new Point(41, 39);
-            label1.Name = "label1";
-            label1.Size = new Size(274, 25);
-            label1.TabIndex = 0;
-            label1.Text = "Employee Management System";
-            label1.Click += label1_Click;
             // 
             // panel2
             // 
@@ -71,9 +62,24 @@
             panel2.Size = new Size(414, 573);
             panel2.TabIndex = 1;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = SystemColors.Window;
+            label1.Location = new Point(37, 20);
+            label1.Name = "label1";
+            label1.Size = new Size(326, 24);
+            label1.TabIndex = 0;
+            label1.Text = "Employee Management System";
+            label1.Click += label1_Click;
+            // 
             // panel3
             // 
             panel3.BackColor = Color.DarkSlateBlue;
+            panel3.Controls.Add(button4);
+            panel3.Controls.Add(button3);
+            panel3.Controls.Add(button2);
             panel3.Controls.Add(button1);
             panel3.Controls.Add(label2);
             panel3.Controls.Add(pictureBox1);
@@ -82,15 +88,52 @@
             panel3.Size = new Size(338, 523);
             panel3.TabIndex = 1;
             // 
-            // pictureBox1
+            // button4
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(58, 10);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(171, 95);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 2;
-            pictureBox1.TabStop = false;
+            button4.Location = new Point(35, 464);
+            button4.Name = "button4";
+            button4.Size = new Size(94, 29);
+            button4.TabIndex = 7;
+            button4.Text = "button4";
+            button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.DarkSlateBlue;
+            button3.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button3.ForeColor = Color.White;
+            button3.Location = new Point(35, 327);
+            button3.Name = "button3";
+            button3.Size = new Size(269, 43);
+            button3.TabIndex = 6;
+            button3.Text = "SALARY";
+            button3.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.DarkSlateBlue;
+            button2.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button2.ForeColor = Color.White;
+            button2.Location = new Point(35, 262);
+            button2.Name = "button2";
+            button2.Size = new Size(269, 42);
+            button2.TabIndex = 5;
+            button2.Text = "ADD EMPLOYEE";
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.DarkSlateBlue;
+            button1.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button1.ForeColor = Color.White;
+            button1.ImageAlign = ContentAlignment.MiddleLeft;
+            button1.Location = new Point(35, 198);
+            button1.Name = "button1";
+            button1.Size = new Size(269, 42);
+            button1.TabIndex = 4;
+            button1.Text = "DASHBOARD";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // label2
             // 
@@ -103,15 +146,15 @@
             label2.TabIndex = 3;
             label2.Text = "Welcome, User";
             // 
-            // button1
+            // pictureBox1
             // 
-            button1.Location = new Point(48, 188);
-            button1.Name = "button1";
-            button1.Size = new Size(261, 46);
-            button1.TabIndex = 4;
-            button1.Text = "DASHBOARD";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(58, 13);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(171, 95);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 2;
+            pictureBox1.TabStop = false;
             // 
             // MainForm
             // 
@@ -139,5 +182,8 @@
         private PictureBox pictureBox1;
         private Button button1;
         private Label label2;
+        private Button button3;
+        private Button button2;
+        private Button button4;
     }
 }
