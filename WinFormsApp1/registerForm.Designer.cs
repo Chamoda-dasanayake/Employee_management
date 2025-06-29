@@ -51,10 +51,10 @@
             signup_loginbtn.FlatStyle = FlatStyle.Flat;
             signup_loginbtn.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             signup_loginbtn.ForeColor = Color.Snow;
-            signup_loginbtn.Location = new Point(429, 450);
+            signup_loginbtn.Location = new Point(381, 429);
             signup_loginbtn.Margin = new Padding(4, 3, 4, 3);
             signup_loginbtn.Name = "signup_loginbtn";
-            signup_loginbtn.Size = new Size(133, 41);
+            signup_loginbtn.Size = new Size(118, 39);
             signup_loginbtn.TabIndex = 15;
             signup_loginbtn.Text = "Sign Up";
             signup_loginbtn.UseVisualStyleBackColor = false;
@@ -64,7 +64,7 @@
             // 
             psswrd.AutoSize = true;
             psswrd.Font = new Font("Tahoma", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            psswrd.Location = new Point(634, 365);
+            psswrd.Location = new Point(564, 348);
             psswrd.Margin = new Padding(4, 3, 4, 3);
             psswrd.Name = "psswrd";
             psswrd.Size = new Size(148, 25);
@@ -76,27 +76,27 @@
             // txtPassword
             // 
             txtPassword.Font = new Font("Tahoma", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtPassword.Location = new Point(433, 303);
+            txtPassword.Location = new Point(385, 289);
             txtPassword.Margin = new Padding(4, 3, 4, 3);
             txtPassword.Name = "txtPassword";
             txtPassword.PasswordChar = '*';
-            txtPassword.Size = new Size(364, 29);
+            txtPassword.Size = new Size(324, 29);
             txtPassword.TabIndex = 13;
             // 
             // txtName
             // 
             txtName.Font = new Font("Tahoma", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtName.Location = new Point(433, 189);
+            txtName.Location = new Point(385, 180);
             txtName.Margin = new Padding(4, 3, 4, 3);
             txtName.Name = "txtName";
-            txtName.Size = new Size(364, 29);
+            txtName.Size = new Size(324, 29);
             txtName.TabIndex = 12;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Gadugi", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(433, 259);
+            label3.Location = new Point(385, 247);
             label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
             label3.Size = new Size(95, 21);
@@ -107,7 +107,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Gadugi", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(437, 144);
+            label2.Location = new Point(388, 137);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
             label2.Size = new Size(106, 21);
@@ -118,7 +118,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Arial", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(435, 50);
+            label1.Location = new Point(387, 48);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
             label1.Size = new Size(245, 33);
@@ -132,18 +132,18 @@
             panel1.Controls.Add(signin_btn);
             panel1.Controls.Add(label5);
             panel1.Controls.Add(label4);
-            panel1.Location = new Point(5, -10);
+            panel1.Location = new Point(4, -10);
             panel1.Margin = new Padding(4, 3, 4, 3);
             panel1.Name = "panel1";
-            panel1.Size = new Size(394, 599);
+            panel1.Size = new Size(350, 570);
             panel1.TabIndex = 8;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(68, 41);
+            pictureBox1.Location = new Point(60, 39);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(286, 181);
+            pictureBox1.Size = new Size(254, 172);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 3;
             pictureBox1.TabStop = false;
@@ -155,9 +155,9 @@
             signin_btn.FlatStyle = FlatStyle.Popup;
             signin_btn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             signin_btn.ForeColor = Color.White;
-            signin_btn.Location = new Point(40, 511);
+            signin_btn.Location = new Point(36, 487);
             signin_btn.Name = "signin_btn";
-            signin_btn.Size = new Size(314, 40);
+            signin_btn.Size = new Size(279, 38);
             signin_btn.TabIndex = 2;
             signin_btn.Text = "Sign In";
             signin_btn.UseVisualStyleBackColor = false;
@@ -168,7 +168,7 @@
             label5.AutoSize = true;
             label5.Font = new Font("Verdana", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label5.ForeColor = Color.White;
-            label5.Location = new Point(100, 475);
+            label5.Location = new Point(89, 452);
             label5.Name = "label5";
             label5.Size = new Size(180, 22);
             label5.TabIndex = 1;
@@ -179,7 +179,7 @@
             label4.AutoSize = true;
             label4.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.White;
-            label4.Location = new Point(40, 249);
+            label4.Location = new Point(36, 237);
             label4.Name = "label4";
             label4.Size = new Size(329, 25);
             label4.TabIndex = 0;
@@ -187,9 +187,9 @@
             // 
             // registerForm
             // 
-            AutoScaleDimensions = new SizeF(9F, 21F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(813, 579);
+            ClientSize = new Size(723, 551);
             Controls.Add(signup_loginbtn);
             Controls.Add(psswrd);
             Controls.Add(txtPassword);
